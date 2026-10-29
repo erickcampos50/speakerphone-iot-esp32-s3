@@ -1,0 +1,31 @@
+# Produtos gerados pelo Arduino e ferramentas
+**/build/
+**/.pio/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+
+# Dados de bancada e credenciais, nunca versionar por padrao
+*.wav
+*.WAV
+*.log
+*.zip
+*.7z
+*.rvt
+backup/
+backups/
+.env
+.env.*
+secrets.*
+wifi_credentials.*
+
+# Ambiente local
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
